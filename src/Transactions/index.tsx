@@ -16,13 +16,13 @@ interface Transaction {
 }
 
 export function Transactions() {
-  const [transactions, setTtransactions] = useState<Transaction[]>([]);
+  const [transactions, setTransactions] = useState<Transaction[]>([]);
   
   const loadTransactions = async () => {
     const response = await fetch('http://localhost:3333/transactions');
     const data = await response.json();
 
-    setTtransactions(data);
+    setTransactions(data);
   }
 
   useEffect(() => {
