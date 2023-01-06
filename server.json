@@ -14,7 +14,23 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 50,
-      "createdAt": "2022-12-21T19:08:18.989Z"
+      "createdAt": "2022-12-23T21:08:18.989Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-01-06T01:34:20.763Z",
+      "id": 3
+    },
+    {
+      "description": "Manutenção do carro",
+      "price": 580,
+      "category": "Carro",
+      "type": "outcome",
+      "createdAt": "2023-01-06T01:49:32.541Z",
+      "id": 4
     }
   ]
 }
